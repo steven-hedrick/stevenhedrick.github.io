@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Static Layout</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="data:image/png;base64,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"
+            alt="logo" class="center">
+
+        <nav>
+            <ul id="mainMenu">
+                <li><a href="#">News+Blog</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Films</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Interactive</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Databank</a></li>
+            </ul>
+            <input type="text" placeholder="Search..">
+        </nav>
+
+    </header>
+
+
+
+    <div>
+        <div id="logo">
+            <a href><img src="https://i.pinimg.com/originals/67/2c/a7/672ca784d459dca1dc37d94c1f582152.png" alt="logo"
+                    class="center">
+                <div id=""></div>
+            </a>
+            <p>Star Wars Streaming Anytime On Disney+</p>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/star-wars-hunters-new-swcom-slide-mobile-_2_974bc605.jpeg?region=0,0,1024,626&width=960"
+                style="width:100%">
+            <div class="text">Join the fight in Star Wars:Hunters, a new game from Lucasfilm and Zynga!</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/boba-fett-war-of-the-bounty-hunters-new-swcom-slide-mob_2e1bdff6.jpeg?region=0,0,1024,626&width=960"
+                style="width:100%">
+            <div class="text">BOBA FETT WILL TAKE ON THE GALAXY'S WORST IN MARVEL'S EPIC WAR OF THE BOUNTY
+                HUNTERS-EXCLUSIVE</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/star-wars-toty-new-swcom-slide-mobile-_2_2cd4be47.jpeg?region=0,0,1024,626&width=960"
+                style="width:100%">
+            <div class="text">STAR WARS WINS 5 TOY OF THE YEAR AWARDS!</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <section>
+        <div class="w3-container">
+            <div class="image-wrapper background-image">
+                <div class="aspect" style="padding-bottom: 156.25%;">
+                    <img src="https://starwarsblog.starwars.com/wp-content/uploads/2020/12/the-high-republic-ships-and-vehicles-starlight-94hhg99.jpg"
+                        alt="highrepublic" class="center">
+
+                    <img src="https://www.brickfanatics.com/wp-content/uploads/Star-Wars-The-High-Republic-featured-800-445.jpg"
+                        alt="highrepublic" style="width:35%" class="center">
+
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/thr-into-the-dark-3dcover-hero-mobile_b04ada56.jpeg?region=0%2C0%2C1024%2C626"
+                        style="width:100%">
+                    <h2>Into the Dark | Now Available!</h2>
+
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/6011d19ca3c216000164de9d-image_01b681f4.jpeg?region=0%2C0%2C1536%2C864"
+                        style="width:100%">
+                    <h2>A New Jedi Revealed and More from Star Wars: The High Republic Show</h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="image-wrapper background-image">
+            <div class="aspect" style="padding-bottom: 156.25%;">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/the-mandalorian-s2-single-hero-b-desktop_28751c8d.jpeg?region=0,0,1200,509"
+                    alt="Mandalorian" style="width:100%">
+                <h1>The Mandalorian</h1>
+                <p>All episodes now streaming, only on Disney+</p>
+                <div>
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/the-mandalorian-s2-golden-globe-tall_f751b9f5.jpeg?region=0%2C0%2C1536%2C864"
+                        style="width:100%">
+                    <p>The Mandalorian Receives Golden Globe Nomination for Best TV Drama</p>
+                </div>
+                <div>
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/disney-gallery-mando-s2-gumstick-169_d4378381.jpeg?region=0%2C0%2C900%2C506"
+                        style="width:100%">
+                    <p>Stream Now! Disney Gallery:The Manalorian - Making of Season 2</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kb2K2wPFVUQ" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eW7Twd85m2g" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <h2>Latest News + Blog ></h2>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/602fc8217fc9010001e75338-image_a467dbc4.jpeg?region=0%2C0%2C1536%2C864"
+                style="width:100%">
+            <div class="text">Quiz:Complete the Quote from the Star Wars Jedi!</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/602ece844d285c0001d9a1a2-image_a73de1cb.jpeg?region=0%2C0%2C1536%2C864"
+                style="width:100%">
+            <div class="text">Uncover Mysteries of the Dark Side in The Secrets of the Sith - Exclusive Reveal</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/602e76a24d285c00018e2d61-image_3d933cec.jpeg?region=0%2C0%2C1536%2C864"
+                style="width:100%">
+            <div class="text">The Clone Wars Rewatch: Skyguy and Snips, "Old Friends Not Forgotten"</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <br>
+
+    <div style="justify-content: center;">
+        <h2>Latest Video ></h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Eengecg-hxc" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jdz2m9cz5nQ" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QL_3cRqgW78" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <br>
+
+    <div class="image-wrapper aspect">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/d_franchiseslider_s2update_4ea6893f.jpeg?region=0%2C0%2C960%2C540"
+            alt="Star Wars on Disney+">
+    </div>
+
+
+
+
+    <footer>
+        <h5>TM&amp;&copy; Lucasfilm Ltd. All Rights Reserved</h5>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
